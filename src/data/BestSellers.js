@@ -1,0 +1,108 @@
+import laptop from "../assets/bestseller/applap_395f1832-31fa-4105-b32b-8.png";
+import speaker from "../assets/bestseller/WirelessSound.png";
+import controller from "../assets/bestseller/game-1.png";
+import headphone from "../assets/bestseller/1.png";
+import pinktab from "../assets/bestseller/appipad_1404a4d1-4b52-4385-a789.png";
+import blacktab from "../assets/bestseller/iapdlap_15d8435c-e601-44c4-9b8b (1).png";
+import printer from "../assets/bestseller/printer.png";
+import phone from "../assets/bestseller/bluePhone.png";
+import { FaLongArrowAltRight } from "react-icons/fa";
+import { LiaCartArrowDownSolid } from "react-icons/lia";
+export const BestSellers = [
+  {
+    discount: undefined,
+    new: false,
+    hot: false,
+    img: laptop,
+    company: "Donna Karan",
+    productName: "Dentotam Product Sample",
+    productDescription: ["4.5 inch HD Screen", "Android 4.4 KitKat OS..."],
+    salePrice: "20.00",
+    mrp: undefined,
+    button: <FaLongArrowAltRight />,
+  },
+  {
+    discount: undefined,
+    new: true,
+    hot: false,
+    img: speaker,
+    company: "Christian Dior",
+    productName: "Coneco Product Sample",
+    productDescription: ["360 Omnidirectional Sound..."],
+    salePrice: "310.00",
+    mrp: undefined,
+    button: <FaLongArrowAltRight />,
+  },
+  {
+    discount: 36,
+    new: true,
+    hot: true,
+    img: controller,
+    company: "Armani",
+    productName: "Black Fashion Zapda",
+    productDescription: [],
+    salePrice: "350.00",
+    mrp: "550.00",
+    button: <FaLongArrowAltRight />,
+  },
+  {
+    discount: 10,
+    new: false,
+    hot: false,
+    img: headphone,
+    company: "Givenchy",
+    productName: "Dentoex Product Sample",
+    productDescription: ["Pair and Play with your Bluetooth® device with..."],
+    salePrice: "450.00",
+    mrp: "499.00",
+    button: <LiaCartArrowDownSolid className="text-2xl" />,
+  },
+  {
+    discount: 20,
+    new: false,
+    hot: false,
+    img: pinktab,
+    company: "Dolce & Gabbana",
+    productName: "Daltex Product Sample",
+    productDescription: [],
+    salePrice: "200.00",
+    mrp: "250.00",
+    button: <LiaCartArrowDownSolid className="text-2xl" />,
+  },
+  {
+    discount: undefined,
+    new: false,
+    hot: false,
+    img: blacktab,
+    company: "Dolce & Gabbana",
+    productName: "Fixair Product Sample",
+    productDescription: ["4.5 inch HD Screen", "Android 4.4 KitKat OS..."],
+    salePrice: "210.00",
+    mrp: undefined,
+    button: <FaLongArrowAltRight />,
+  },
+  {
+    discount: 21,
+    new: false,
+    hot: false,
+    img: printer,
+    company: "Christian Dior",
+    productName: "Finity Product Sample",
+    productDescription: ["Accept SIM card and call", "Take photos..."],
+    salePrice: "95.00",
+    mrp: "120.00",
+    button: <FaLongArrowAltRight />,
+  },
+  {
+    discount: 25,
+    new: false,
+    hot: false,
+    img: phone,
+    company: "Armani",
+    productName: "Donkix Product Sample",
+    productDescription: ["No more blur and noise", "Cloud storage..."],
+    salePrice: "60.00",
+    mrp: "80.00",
+    button: <FaLongArrowAltRight />,
+  },
+];
