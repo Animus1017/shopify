@@ -9,6 +9,10 @@ import ActivitySection from "../components/core/HomePage/ActivitySection";
 import NewArrivalSection from "../components/core/HomePage/NewArrivalSection";
 import TradeSection from "../components/core/HomePage/TradeSection";
 import BestSeller from "../components/core/HomePage/BestSeller";
+import ReviewsSection from "../components/core/HomePage/ReviewsSection";
+import FaqsSection from "../components/core/HomePage/FaqsSection";
+import SubscribeSection from "../components/core/HomePage/SubscribeSection";
+import Footer from "../components/common/Footer";
 
 const Home = () => {
   return (
@@ -70,6 +74,21 @@ const Home = () => {
       {/* section6 */}
       <div className="py-16">
         <BestSeller />
+      </div>
+      {/* section7 */}
+      <div className="mx-auto w-11/12 max-w-maxContent">
+        <ReviewsSection />
+      </div>
+      {/* section8 */}
+      <div className="mx-auto w-11/12 max-w-maxContent py-16">
+        <FaqsSection />
+      </div>
+      {/* section9 */}
+      <div className="mx-auto w-11/12 max-w-maxContent py-16">
+        <SubscribeSection />
+      </div>
+      <div className="w-screen">
+        <Footer />
       </div>
     </div>
   );
